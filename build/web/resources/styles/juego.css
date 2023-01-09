@@ -1,0 +1,108 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 18 dic 2022, 14:23:55
+    Author     : Angel
+*/
+
+body {
+    background: url("../images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    color:#e8e9ec;
+    padding-top: 15px;
+    float: left;
+    margin-left: 100px;
+    font-size: 2.4em;
+}
+
+#info {
+    color:#e8e9ec;
+    float: left;
+    margin-bottom: 40px;
+}
+
+
+
+#derecha{
+    color:#e8e9ec;
+    float:right;
+    margin-top:45px;
+    margin-right: 10px;
+}
+
+.cartas {
+    clear: both;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.cartas div {
+    width: 450px;
+    margin-left: 250px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    margin-left: 250px;
+}
+
+
+.cartas h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color:white;
+    margin-left: 120px;
+}
+
+.cartas div:first-of-type h2{
+    margin-left: 225px;
+    
+}
+
+
+img {
+    margin: 0;
+    width: 90%;
+}
+
+#img1{
+    margin-left:80px;
+}
+
+
+h3{
+    text-align: center;
+}
+
+h3:first-of-type{
+    margin-left: 80px;
+}
+
+
+form {
+    margin-top: 30px;
+    margin-left: 280px;
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    color:transparent;;
+    margin-left: 50px;
+    border: 2px solid rgb(40, 95, 40);
+    border-radius: 10px;
+    background-size: 80% 80%;
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
