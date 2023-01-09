@@ -1,0 +1,42 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 19 dic 2022, 23:02:54
+    Author     : Angel
+*/
+
+body{
+    background-image: url("../images/grinch.jpg");
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 100%;
+ 
+}
+
+p{
+    margin-top: 20vh;
+    color: white;
+    font-family: 'Segoe Print';
+    font-weight: bold;
+    font-size: 1.7em;
+    text-align: center;
+    margin-left: 20px;
+}
+
+
+input{
+    margin-top: 60vh;
+    margin-left: -480px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+
+input:hover{
+    background-color: azure;
+}

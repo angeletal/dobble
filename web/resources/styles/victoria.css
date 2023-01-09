@@ -1,0 +1,39 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 19 dic 2022, 20:53:53
+    Author     : Angel
+*/
+
+body{
+    background-image: url("../images/postal.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    margin-top: 30vh;
+    font-family: 'Segoe Print';
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+
+input{
+    margin-top: 72vh;
+    margin-left: -430px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    border-color: black;
+    font-weight: bold;
+}
+
+input:hover{
+    background-color: azure;
+}

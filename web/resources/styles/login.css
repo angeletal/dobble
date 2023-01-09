@@ -1,0 +1,89 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 19 dic 2022, 9:54:44
+    Author     : Angel
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: url("../images/fondo.jpg");
+    background-size: 100%;
+}
+
+.contenedor {
+    margin-left: 28%;
+    margin-top: 15%;
+    background-color: #384334;
+    width: 700px;
+    border-radius: 7px;
+}
+
+h1 {
+    padding: 35px;
+    padding-bottom: 0;
+    color:white;
+    text-align: center;
+}
+
+.formulario {
+    padding: 35px;
+    text-align: center;
+}
+
+.input {
+    padding: 12px 5px;
+}
+
+.input input {
+    background-color: #384334;
+    font-size: 1em;
+    color:white;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.input input::-webkit-input-placeholder{
+    color:lightgray;
+}
+
+.input input:focus {
+    outline: none;
+}
+
+.enviar input {
+    color: #384334;
+    font-weight: bold;
+    width: 80%;
+    margin-left: 10%;
+    border: none;
+    padding: 18px;
+    cursor: pointer;
+    font-size: 1.2em;
+    background-color: #e8e9ec;
+    letter-spacing: 0.2px;
+    border-radius: 10px;
+
+}
+
+.enviar input:hover {
+    background-color: #ccc1c1;
+}
+
+h2 {
+   color:white;
+    margin-top: 50px;
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+}
